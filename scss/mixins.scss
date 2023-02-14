@@ -1,0 +1,33 @@
+@mixin monaz {
+  font-family: $montserrat;
+  color: $azulm;
+}
+
+@mixin hm-1{
+  font-family: $montserrat;
+  color: $naranjoc;
+  font-weight: bold;
+}
+
+@mixin img-1{
+  height: 250px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@mixin number-1{
+  width: 450px;
+  height: 250px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@mixin number-2{
+  width: 450px;
+  height: 250px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 210%;
+}
